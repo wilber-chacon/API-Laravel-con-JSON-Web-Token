@@ -5,7 +5,7 @@ Servicio de API Rest que permite realizar las operaciones de registro y autentic
 •	Registro de nuevos usuarios, aplicando seguridad de cifrado a la contraseña almacenada en la base de datos.</br>
 •	Inicio de sesión para usuarios previamente registrados en la base de datos, además, el servicio retorna un JWT para aplicar seguridad a los servicios.</br>
 •	Servicio para consultar el perfil del usuario logueado.</br>
-•	Servicios para listar los registros de la tabla products, crear nuevo registro, editar los datos de un registro (con PUT) y eliminar un registro.</br>
+•	Servicios para listar los registros de la tabla products, crear nuevo registro, consultar los datos de un registro, editar los datos de un registro (con PUT) y eliminar un registro.</br>
 •	Cierre de la sesión activa de un usuario invalidando el JWT generado en el proceso de logueo.</br></br>
 
 <b>Tecnologías:</b></br>
@@ -16,7 +16,7 @@ Servicio de API Rest que permite realizar las operaciones de registro y autentic
 •	Motor de base de datos Mysql v 5.7.36</br></br>
 
 
-<b>Importante:</b> todos los servicios que contienen el signo * deben contener en la sección de autorización el JWT proporcionado en el proceso de logueo (inicio de sesión). </br></br>
+<b>Importante:</b> todos los servicios que contienen el signo <b>*</b> deben contener en la sección de autorización el JWT proporcionado en el proceso de logueo (inicio de sesión). </br></br>
 
 Servicio en la cual se puede registrar un nuevo usuario, enviando los datos en formato JSON</br></br>
 ![image](https://github.com/user-attachments/assets/5ee2017f-4211-44f4-9cfa-4a01b4a8cafe)</br></br>
