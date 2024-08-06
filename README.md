@@ -11,7 +11,7 @@ Servicio de API Rest que permite realizar las operaciones de registro y autentic
 <b>Tecnologías:</b></br>
 •	PHP v 8.1.0</br>
 •	Laravel v 10.48.17 para el servicio de API REST</br>
-•	Tymon jwt-auth para el manejo de la seguridad JSON Web Token</br>
+•	<a href="https://jwt-auth.readthedocs.io/en/develop/" target="_blank">Tymon jwt-auth</a> para el manejo de la seguridad JSON Web Token</br>
 •	Eloquent para el manejo de los datos en la base de datos</br>
 •	Motor de base de datos Mysql v 5.7.36</br></br>
 
